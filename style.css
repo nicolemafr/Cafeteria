@@ -128,4 +128,73 @@ header{
     }
 }
 
+.fita-azul{
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    height: 70px;
 
+    .oran{
+            color: #AE3A25;
+            font-weight: 500;
+            font-family: "IBM Plex Mono", monospace;
+        }
+}
+
+.caixas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 200px;
+    background-color: #F5F4EC;
+
+    h4{
+        text-align: left;
+        justify-content: left;
+        font-family: "IBM Plex Mono", monospace;
+    }
+}
+
+.caixona{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border-top: 1px solid #a7a7a7;
+    border-right: 1px solid #a7a7a7;
+    padding: 25px 100px 0px 25px;
+
+    
+    h5{
+        color: #AE3A25;
+        font-family: "IBM Plex Mono", monospace;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h6{
+        font-family: "IBM Plex Mono", monospace;
+        padding-top: 10px;
+    }
+
+    p{
+        font-weight: 700;
+    }
+
+}
+
+.l2{
+    border-right: none;
+}
