@@ -198,3 +198,36 @@ header{
 .l2{
     border-right: none;
 }
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9D9A3;
+    padding: 130px;
+
+    h1{
+        font-size: 60px;
+        width: 470px;
+        text-align: center;
+
+        .anja{
+            color: #AE3A25;
+            font-weight: 900;
+            font-style: italic;
+        }
+    }
+
+    h6{
+        font-size: 15px;
+        font-family: "IBM Plex Mono", monospace;
+    }
+
+    .botao{
+        background-color: #152722;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+    }
+}
