@@ -2,19 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-.hero {
-    display: flex;
-    align-items: center;
-    background-color: #172923;
-
-    img {
-        width: 50%;
-
-
-    }
-}
-
 header{
     display: flex;
     justify-content: space-around;
@@ -54,3 +41,45 @@ header{
 .ativo{ 
     color: #102b24; 
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #172923;
+   
+    img {
+        width: 50%;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        font-size: 20px;
+        width: 500px;
+        h3{
+            font-size: 10px;
+            padding: 15px;
+            color: #E8D9A6;
+        }
+        h1{
+            font-size:65px;
+            color: #F5F4EC;
+
+        }
+        p{
+            padding: 10px;
+            color: #F5F4EC;
+        }
+    }
+    .texto2{
+        font-size: 65px;
+        color: #E8D9A6;
+    }
+}
+
+.hero2{
+
+}
+
