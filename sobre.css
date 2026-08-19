@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,76 +11,119 @@ header{
     width: 100%;
     height: 60px;
     font-family: 'Cormorant Garamond', serif;
-    
-    img{
+
+    img {
         width: 140px;
     }
 
-    .cabecalho{
+    .cabecalho {
         display: flex;
         gap: 30px;
-        a{
+
+        a {
             color: black;
             font-weight: 400;
             text-decoration: none;
 
-            &:hover{
+            &:hover {
                 color: #AE3A25;
                 transition: 0.3s;
                 text-decoration: underline;
-             }
+            }
         }
     }
 
-    .ver{
+    .ver {
         color: black;
         text-decoration: none;
         font-weight: 400;
     }
 }
 
-.ativo{ 
-    color: #102b24; 
+.ativo {
+    color: #102b24;
 }
 
 .hero {
     display: flex;
     align-items: center;
     background-color: #172923;
-   
+    height: 700px;
+
     img {
         width: 50%;
+        height: 100%;
     }
 
-    .texto{
+    .texto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 50px;
         font-size: 20px;
         width: 500px;
-        h3{
+
+        h3 {
             font-size: 10px;
             padding: 15px;
             color: #E8D9A6;
         }
-        h1{
-            font-size:65px;
+
+        h1 {
+            font-size: 65px;
             color: #F5F4EC;
 
         }
-        p{
+
+        p {
             padding: 10px;
             color: #F5F4EC;
         }
     }
-    .texto2{
+
+    .texto2 {
         font-size: 65px;
         color: #E8D9A6;
     }
 }
 
-.hero2{
+.caixas {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+
+
+    .l2 {
+        border-left: 1px solid black;
+    }
+
+    .caixa {
+        padding: 15px;
+        width: 33%;
+    }
 
 }
 
+.x {
+    padding: 100px;
+    font-size: 17px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+
+    .l2 {
+        border-left: 1px solid black;
+    }
+
+    .box {
+        padding: 15px;
+        width: 33%;
+    }
+}
