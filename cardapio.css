@@ -12,7 +12,10 @@
     color - Laranja escuro: #AE3A25;
 */
 .body{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "IBM Plex Mono", monospace;
+}
+.fonte{
+    font-family:  "Cormorant Garamond", serif;
 }
 
 header{
@@ -22,7 +25,6 @@ header{
     background-color: #F5F4EC;
     width: 100%;
     height: 60px;
-    font-family: 'Cormorant Garamond', serif;
     
     img{
         width: 140px;
@@ -33,7 +35,7 @@ header{
         gap: 30px;
         a{
             color: black;
-            font-weight: 400;
+            font-weight: 900;
             text-decoration: none;
 
             &:hover{
@@ -47,13 +49,10 @@ header{
     .ver{
         color: black;
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 900;
     }
 }
 
-.ativo{ 
-    color: #102b24; 
-}
 
 .hero{
     display: flex;
@@ -85,6 +84,7 @@ header{
             background-color: #172923;
             color: #E9E5DC;
             border: none;
+            cursor: pointer;
         }
     }
     .cafe{
@@ -97,6 +97,7 @@ header{
 .cabeca{
     padding: 50px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #F5F4EC;
     i{
@@ -107,16 +108,22 @@ header{
     }
 }
 .catalogo{
+    padding-bottom: 32px;
     background-color: #F5F4EC;
     .botao{
         background-color: #F5F4EC;
         padding: 20px;
         border: none;
         margin-left: 35px;
+        cursor: pointer;
+        &:hover{
+                transition: 0.3s;
+                text-decoration: 2.5px underline #AE3A25;
+             }
     }
 }
 .prod{
-    margin-left: 50px;
+    margin-left: 72px;
 }
 .itens{
     display: flex;
@@ -129,7 +136,7 @@ header{
         gap: 12px;
         img{
             width: 420px;
-            height: 460px;
+            height: 495px;
         }
         h3{
             color: #B53A27;
@@ -153,6 +160,7 @@ header{
         margin-left: 140px;
         gap: 15px;
         button{
+            cursor: pointer;
             padding: 15px;
             background-color: #172923;
             color: #E9E5DC;
@@ -168,5 +176,15 @@ header{
 }
 
 footer{
+    display: flex;
+    background-color: #152722;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 
+    img{
+        width: 100px;
+    }
 }
