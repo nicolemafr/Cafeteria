@@ -3,43 +3,45 @@
     padding: 0;
 }
 
-header {
+body{
+    font-family: "Cormorant Garamond", serif;
+font-family: "IBM Plex Mono", monospace;
+}
+
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #F5F4EC;
     width: 100%;
     height: 60px;
-    font-family: 'Cormorant Garamond', serif;
-
-    img {
+    
+    img{
         width: 140px;
     }
 
-    .cabecalho {
+    .cabecalho{
         display: flex;
         gap: 30px;
-
-        a {
+        a{
             color: black;
-            font-weight: 400;
+            font-weight: 900;
             text-decoration: none;
 
-            &:hover {
+            &:hover{
                 color: #AE3A25;
                 transition: 0.3s;
                 text-decoration: underline;
-            }
+             }
         }
     }
 
-    .ver {
+    .ver{
         color: black;
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 900;
     }
 }
-
 .ativo {
     color: #102b24;
 }
@@ -60,8 +62,13 @@ header {
         flex-direction: column;
         justify-content: center;
         padding: 50px;
-        font-size: 20px;
+        font-size: 15px;
         width: 500px;
+
+        c{
+            font-size: 10px;
+                 color: #E8D9A6;
+        }
 
         h3 {
             font-size: 10px;
@@ -70,7 +77,7 @@ header {
         }
 
         h1 {
-            font-size: 65px;
+            font-size: 55px;
             color: #F5F4EC;
 
         }
@@ -90,13 +97,14 @@ header {
 .caixas {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid black;
+    border-bottom: 0.1px solid rgb(146, 144, 144);
     width: 90%;
     margin: 0 auto;
+   font-size: 10px;
 
 
     .l2 {
-        border-left: 1px solid black;
+        border-left: 1px solid rgb(146, 144, 144);
     }
 
     .caixa {
@@ -108,22 +116,82 @@ header {
 
 .x {
     padding: 100px;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(146, 144, 144);
     width: 90%;
     margin: 0 auto;
 
     .l2 {
-        border-left: 1px solid black;
+        border-left: 1px solid rgb(146, 144, 144);
     }
 
     .box {
         padding: 15px;
         width: 33%;
+    }
+}
+
+.y{
+    margin-top: 100px;
+     padding: 100px;
+    font-size: 14px;
+    background-color: #EADCA4;
+}
+
+.hero3{
+    background-color: #EADCA4;
+    display: flex;
+    .theo{
+          border-top: 1px solid rgb(146, 144, 144);
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        img{
+            height: 200px;
+            width: 250px;
+        }
+
+        .texto60{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+        }
+    }
+
+    .luisa{
+           border-top: 1px solid rgb(146, 144, 144);
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        img{
+             height: 200px;
+            width: 250px;
+        }
+
+        .texto67{
+             display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+footer{
+    display: flex;
+    background-color: #152722;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+    img{
+        width: 100px;
     }
 }
