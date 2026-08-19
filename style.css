@@ -5,15 +5,6 @@
     font-family: "Cormorant Garamond", serif;
 }
 
-/* 
- CORES:
-    color - Bege escuro: #E8D8A3;
-    color - Verde escuro: #152722;
-    color - Bege claro: #F5F4EC;
-    color - Azul claro: #82B5C2;
-    color - Laranja escuro: #AE3A25;
-*/
-
 header{
     display: flex;
     justify-content: space-around;
@@ -21,7 +12,6 @@ header{
     background-color: #F5F4EC;
     width: 100%;
     height: 60px;
-    
     
     img{
         width: 140px;
@@ -32,7 +22,7 @@ header{
         gap: 30px;
         a{
             color: black;
-            font-weight: 400;
+            font-weight: 900;
             text-decoration: none;
 
             &:hover{
@@ -46,7 +36,7 @@ header{
     .ver{
         color: black;
         text-decoration: none;
-        font-weight: 400;
+        font-weight: 900;
     }
 }
 
@@ -60,8 +50,8 @@ header{
 
     h1{
         width: 600px;
-        font-size: 70px;
-        line-height: 60px;
+        font-size: 90px;
+        line-height: 70px;
     }
 
     .pri{
@@ -206,11 +196,14 @@ header{
     align-items: center;
     background-color: #E9D9A3;
     padding: 130px;
+    gap: 10px;
+    height: 500px;
 
     h1{
         font-size: 60px;
         width: 470px;
         text-align: center;
+        font-weight: 900;
 
         .anja{
             color: #AE3A25;
@@ -229,6 +222,15 @@ header{
         padding: 20px;
         color: white;
         text-decoration: none;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:hover{
+            background-color: #AE3A25;
+            transition: 0.3s;
+        }
     }
 }
 
